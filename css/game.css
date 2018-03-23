@@ -1,0 +1,18 @@
+.background    { background: rgb(25, 42, 54);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 10;          }
+.lava          { background: red; }
+.wall          { background-image: url("https://78.media.tumblr.com/ea636989f58d599fc25b70b96f1f3ffb/tumblr_p5avbwmdBs1s5fsqro2_r1_75sq.gif");   }
+.floater       { background-image: url(""); }
+
+.actor  { position: absolute;  }
+.player { background-image: url("https://78.media.tumblr.com/a53cdb4e02ef03b5301d74463b961857/tumblr_p5ydkeIXK91s5fsqro3_r1_75sq.gif"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
